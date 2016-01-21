@@ -3,6 +3,9 @@
 var Additive = (function(){
   //takes the secret function and the int as an input and tests all combinations of primes below int
   var isAdditive = function(secret, int){
+    if (int <= 2){
+      throw "Invalid input";
+    }
     var primes = allPrimesBelow(int);
     var additive = function(a, b){
       return secret.call(null, (a + b)) === secret.call(null, a) + secret.call(null, b);
@@ -67,7 +70,7 @@ var Additive = (function(){
   var secret = function(int){
     return int * 2;
   };
-  
+
   var result = isAdditive.call(null, secret, Number(process.argv[2]));
   console.log(result);
   return result;
