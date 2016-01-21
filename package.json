@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "> Builds Pascal's Triangle of n size",
   "main": "secret.js",
+  "bin": {
+    "secret": "./secret.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +19,4 @@
     "url": "https://github.com/EJKinger/secret/issues"
   },
   "homepage": "https://github.com/EJKinger/secret#readme",
-  "devDependencies": {
-    "chai": "^3.4.1",
-    "jquery": "^2.2.0",
-    "mocha": "^2.3.4"
-  }
 }

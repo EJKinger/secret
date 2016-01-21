@@ -5,25 +5,11 @@
 
 ## Table of Contents
 
-1. [Dev Requirements](#dev-requirements)
-1. [Development](#development)
-    1. [Installing Dependencies](#installing-dependencies)
-    2. [Getting Started](#getting-started)
+1. [Command Line Tool](#command-line-tool)
 
 
-## Dev Requirements
+## Command Line Tool
 
-- Chai
-- Mocha
-- Jquery
-
-
-## Development
-
-### Installing Dependencies
- - run `npm install` from within the root directory
-
-### Getting started
- - open `SpecRunner.html` in browser
- - tests are in `Spec.js`
- - logic is in `secret.js`
+ - Within `secret.js`, update the `var secret` function to whichever function you wish to test
+ - Within the root directory, run `npm install -g` (you must have npm installed)
+ - Now, run `$ secret <integer>` within the command line, which will print the boolean result
