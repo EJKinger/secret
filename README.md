@@ -1,6 +1,6 @@
 # Secret
 
-> Detirmines wheter a secret functino is additive for all prime numbers below a given number
+> Detirmines wheter a secret function is additive for all prime numbers below a given number
 
 
 ## Table of Contents
